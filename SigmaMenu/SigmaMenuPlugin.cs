@@ -65,6 +65,16 @@ public partial class SigmaMenuPlugin : BasePlugin
                 GUILayout.Label("Other sussy options");
                 NoClip = GUILayout.Toggle(NoClip, "No Sigma Clip");
                 spamchat = GUILayout.Toggle(spamchat, "Rizz up chat");
+                if (GUILayout.Button("kill all sussy bakas"))
+                {
+                    foreach (var player in PlayerControl.AllPlayerControls)
+                    {
+                        if (!player.AmOwner)
+                        {
+                            PlayerControl.LocalPlayer.MurderPlayer(player, MurderResultFlags.Succeeded);
+                        }
+                    }
+                }
             })
         {
             Enabled = true,
