@@ -4,7 +4,9 @@
 
 Only BETAS use Malum or Sicko. Real SIGMAS use Sigma Menu.
 
-Sigma menu is not for weaklings, if you can't understand the brainrot, you are not a real sigma.
+Sigma menu is not for weaklings, if you can't understand the brainrot, you are not a real sigma!
+
+Sigma Menu requires [Reactor](https://github.com/NuclearPowered/Reactor)! Make sure you have it installed before installing Sigma Menu.
 
 ## Features
 
